@@ -15,7 +15,7 @@ public struct BiometricsForm: View {
         self.title = if let types, let type = types.first, types.count == 1 {
             type.name
         } else {
-            "Parameters"
+            "Health Data"
         }
     }
     

@@ -56,7 +56,7 @@ extension MaintenanceForm.RestingSection {
                 if params.count == 1, let param = params.first {
                     param.name
                 } else {
-                    "Biometrics"
+                    "Health Data"
                 }
             }
             
